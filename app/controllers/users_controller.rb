@@ -6,9 +6,12 @@ class UsersController < ApplicationController
 
   # GET /users
   # GET /users.json
+  # variables starting with '@' are instance variables
   def index
     @users = User.all
   end
+  
+  #Once the @users variable is defined, the controller calls the view, see app/views/users/index.html.erb
 
   # GET /users/1
   # GET /users/1.json
