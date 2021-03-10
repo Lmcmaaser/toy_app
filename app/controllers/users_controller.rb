@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
   # GET /users
   # GET /users.json
-  # variables starting with '@' are instance variables
+  # variables starting with '@' are instance variables and are automatically available in the views
   def index
     @users = User.all
   end

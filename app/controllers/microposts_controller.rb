@@ -1,3 +1,6 @@
+# contains a collection of related actions
+
+#MicropostController class inherits from ApplicationController
 class MicropostsController < ApplicationController
   before_action :set_micropost, only: [:show, :edit, :update, :destroy]
 
